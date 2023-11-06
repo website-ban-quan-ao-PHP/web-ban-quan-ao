@@ -1,22 +1,14 @@
 <?php
 
-class Main {
+class Main
+{
 
 	function __construct()
 	{
-		echo 'hiu deptrai';
+		echo 'this is main';
 
 	}
-	public function chitietsanpham(){
-		echo 'chitietsanpham';
-	}
-	public function loaisanpham(){
-		
-	}
-
-	public function tagsanpham(){
-		
-	}
+	
 
 
 }

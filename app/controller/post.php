@@ -1,11 +1,15 @@
 <?php
 
-class post
+class post extends DController
 {
-		function __construct()
-		{
-			echo 'this is post';
-		}
+	public	function __construct()
+	{
+		parent::__construct();
+		echo ' this is post';
+	}
+	public function chitietbaiviet(){
+		echo ' chi tiet bai viet is post';
+	}
 }
 
 
