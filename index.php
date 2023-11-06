@@ -6,35 +6,55 @@
 	<title>website ban hang</title>
 </head>
 <body>
-	<?php
-		include('inc/header.php');
-		$hello = 'hello word';
-	?>
+	
 	<h1>
 		<?php
 		  include_once('system/libs/Main.php');
-		  include_once('app/controller/product.php');
+		  include_once('system/libs/DController.php');
+		  include_once('system/libs/Load.php');
 
-		$main = new Main();
-		$productControler = new product();
+			$url = isset($_GET['url']) ? $_GET['url']:NULL;
+		
+			if ($url!=NULL) 
+			{
+			$url = rtrim($url, '/');
+			$url = explode('/',filter_var($url,FILTER_SANITIZE_URL));
+			}else
+			{
+				unset($url);
+			}
 
-		$url = $_GET['url'];
-		$url = rtrim($url, '/');
-		$url = explode('/',$url);
 
-		echo "<pre>";
-		print_r($url);
-		echo "</pre>";
+			if (isset($url[0])) {
+				include_once('app/controller/'.$url[0].'.php');
+				$ctlr = new $url[0]();
+				if (isset($url[2]))
+				{
+					$ctlr ->{$url[1]}($url[2]);
+				}else
+				{
+					if (isset($url[1]))
+					{
+						$ctlr->{$url[1]}();
+					}else
+					{
 
-		echo 'class : ' .$url[0]. '</br>';
-		echo 'methor : ' .$url[1]. '</br>';
-		echo 'pramater : ' .$url[2]. '</br>';
+					}
+				}
+			}else 
+			{
+				include_once('app/controller/index.php');
+				$index = new index();
+				$index->homepage();
+
+			}
+
+
+
+
 
 		?>
 	</h1>
-	<?php
-
-		include('inc/footer.php')
-	?>
+	
 </body>
 </html

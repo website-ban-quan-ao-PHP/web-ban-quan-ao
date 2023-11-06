@@ -1,11 +1,23 @@
 <?php
 
-class product
+class product extends DController
 {
-		function __construct()
-		{
-			echo 'this is product';
-		}
+	public function __construct()
+	{
+		parent::__construct();
+		echo ' this is product';
+	}
+	public function chitietsanpham(){
+		echo ' chi tiet san pham ';
+	}
+	public function loaisanpham(){
+		
+	}
+
+	public function tagsanpham(){
+		
+	}
+
 }
 
 
