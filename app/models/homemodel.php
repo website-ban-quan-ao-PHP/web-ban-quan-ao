@@ -1,22 +1,13 @@
 <?php
-class homemodel
+class homemodel extends DModel
 {
 	
-	function __construct()
+	public function __construct()
 	{
-		echo "this is homemodel";
-	}
-	public function category(){
-		return $category = array(
-			'catOne' => 'điện thoại',
-			'catTwo' => 'tủ lạnh',
-			'catThree' => 'tivi'
-		);
+		parent::__construct();
 	}
 
-
-
-
+	
 
 
 
