@@ -18,24 +18,58 @@
 			return $statement->fetchALl();
 		}
 
-		public function insertct($table,$data)
+		public function insert($table,$data)
 		{
-			$keys = implode(",",array_keys($data));
-			$values =":" .implode(", :",array_keys($data));
+			$keys = implode(",", array_keys($data));
+			$values = ":" .implode(", :",array_keys($data));
 
 			$sql = "INSERT INTO $table($keys) VALUES($values)";
 			$statement = $this->prepare($sql);
 
 			foreach ($data as $key => $value) {
-					$statement->bindParam(":$key",$value);
-				}
-			// $statement->bindParam(':title_category_product',$title_category_product);
-			// $statement->bindParam(':desc_category_product',$desc_category_product);
-					
+					$statement->bindValue(":$key",$value);
+				}	
 			return $statement->execute();
 		
 		}
 
+		public function update ($table,$data,$cond){
+			$updateKeys = NULL;
+
+			foreach ($data as $key => $value) {
+					$updateKeys .="$key=:$key,";
+			}	
+
+			$updateKeys = rtrim($updateKeys,',');
+
+			$sql = "UPDATE $table SET $updateKeys WHERE $cond";
+			$statement = $this->prepare($sql);
+			foreach ($data as $key => $value) {
+					$statement->bindValue(":$key",$value);
+				}	
+			return $statement->execute();
+		}
+
+
+		public function delete($table,$cond,$limit =1){
+			$sql = "DELETE FROM $table WHERE $cond LIMIT $limit";
+			return $this->exec($sql);
+
+		}
+
+		public function affectedRows($sql,$username,$password){
+			$statement = $this->prepare($sql);
+			$statement->execute(array($username,$password));
+			return $statement->rowCount();
+		}
+
+
+		public function selectUser($sql,$username,$password)
+		{
+			$statement = $this->prepare($sql);
+			$statement->execute(array($username,$password));
+			return $statement->fetchALl(PDO::FETCH_ASSOC);
+		}
 
 
 
