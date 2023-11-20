@@ -27,10 +27,10 @@
 .coccoc-alo-phone.coccoc-alo-active .coccoc-alo-ph-circle{-webkit-animation:coccoc-alo-circle-anim 1.1s infinite ease-in-out!important;-moz-animation:coccoc-alo-circle-anim 1.1s infinite ease-in-out!important;-ms-animation:coccoc-alo-circle-anim 1.1s infinite ease-in-out!important;-o-animation:coccoc-alo-circle-anim 1.1s infinite ease-in-out!important;animation:coccoc-alo-circle-anim 1.1s infinite ease-in-out!important}
 .coccoc-alo-phone.coccoc-alo-static .coccoc-alo-ph-circle{-webkit-animation:coccoc-alo-circle-anim 2.2s infinite ease-in-out!important;-moz-animation:coccoc-alo-circle-anim 2.2s infinite ease-in-out!important;-ms-animation:coccoc-alo-circle-anim 2.2s infinite ease-in-out!important;-o-animation:coccoc-alo-circle-anim 2.2s infinite ease-in-out!important;animation:coccoc-alo-circle-anim 2.2s infinite ease-in-out!important}
 .coccoc-alo-phone.coccoc-alo-hover .coccoc-alo-ph-circle,
-.coccoc-alo-phone:hover .coccoc-alo-ph-circle{border-color:#ffbf00;opacity:.5}
+.coccoc-alo-phone:hover .coccoc-alo-ph-circle{border-color:#565656;opacity:.5}
 .coccoc-alo-phone.coccoc-alo-green.coccoc-alo-hover .coccoc-alo-ph-circle,
 .coccoc-alo-phone.coccoc-alo-green:hover .coccoc-alo-ph-circle{border-color:#f5444a;border-color:#baf5a7 9;opacity:.5}
-.coccoc-alo-phone.coccoc-alo-green .coccoc-alo-ph-circle{border-color:#ffbf00;border-color:#bfebfc 9;opacity:.5}
+.coccoc-alo-phone.coccoc-alo-green .coccoc-alo-ph-circle{border-color:#565656;border-color:#bfebfc 9;opacity:.5}
 .coccoc-alo-phone.coccoc-alo-gray.coccoc-alo-hover .coccoc-alo-ph-circle,
 .coccoc-alo-phone.coccoc-alo-gray:hover .coccoc-alo-ph-circle{border-color:#ccc;opacity:.5}
 .coccoc-alo-phone.coccoc-alo-gray .coccoc-alo-ph-circle{border-color:#f5444a;opacity:.5}
@@ -38,7 +38,7 @@
 .coccoc-alo-phone.coccoc-alo-active .coccoc-alo-ph-circle-fill{-webkit-animation:coccoc-alo-circle-fill-anim 1.7s infinite ease-in-out!important;-moz-animation:coccoc-alo-circle-fill-anim 1.7s infinite ease-in-out!important;-ms-animation:coccoc-alo-circle-fill-anim 1.7s infinite ease-in-out!important;-o-animation:coccoc-alo-circle-fill-anim 1.7s infinite ease-in-out!important;animation:coccoc-alo-circle-fill-anim 1.7s infinite ease-in-out!important}
 .coccoc-alo-phone.coccoc-alo-static .coccoc-alo-ph-circle-fill{-webkit-animation:coccoc-alo-circle-fill-anim 2.3s infinite ease-in-out!important;-moz-animation:coccoc-alo-circle-fill-anim 2.3s infinite ease-in-out!important;-ms-animation:coccoc-alo-circle-fill-anim 2.3s infinite ease-in-out!important;-o-animation:coccoc-alo-circle-fill-anim 2.3s infinite ease-in-out!important;animation:coccoc-alo-circle-fill-anim 2.3s infinite ease-in-out!important;opacity:0!important}
 .coccoc-alo-phone.coccoc-alo-hover .coccoc-alo-ph-circle-fill,
-.coccoc-alo-phone:hover .coccoc-alo-ph-circle-fill{background-color:rgba(0, 175, 242, .5);background-color:#ffbf00 9;opacity:.75!important}
+.coccoc-alo-phone:hover .coccoc-alo-ph-circle-fill{background-color:rgba(0, 175, 242, .5);background-color:#565656 9;opacity:.75!important}
 .coccoc-alo-phone.coccoc-alo-green.coccoc-alo-hover .coccoc-alo-ph-circle-fill,
 .coccoc-alo-phone.coccoc-alo-green:hover .coccoc-alo-ph-circle-fill{background-color:rgba(204, 204, 204, .5);background-color:#baf5a7 9;opacity:.75!important}
 .coccoc-alo-phone.coccoc-alo-green .coccoc-alo-ph-circle-fill{background-color:rgba(204, 24, 30, .5);background-color:#a6e3fa 9;opacity:.75!important}
@@ -48,10 +48,10 @@
 .coccoc-alo-phone.coccoc-alo-active .coccoc-alo-ph-img-circle{-webkit-animation:coccoc-alo-circle-img-anim 1s infinite ease-in-out!important;-moz-animation:coccoc-alo-circle-img-anim 1s infinite ease-in-out!important;-ms-animation:coccoc-alo-circle-img-anim 1s infinite ease-in-out!important;-o-animation:coccoc-alo-circle-img-anim 1s infinite ease-in-out!important;animation:coccoc-alo-circle-img-anim 1s infinite ease-in-out!important}
 .coccoc-alo-phone.coccoc-alo-static .coccoc-alo-ph-img-circle{-webkit-animation:coccoc-alo-circle-img-anim 0s infinite ease-in-out!important;-moz-animation:coccoc-alo-circle-img-anim 0s infinite ease-in-out!important;-ms-animation:coccoc-alo-circle-img-anim 0s infinite ease-in-out!important;-o-animation:coccoc-alo-circle-img-anim 0s infinite ease-in-out!important;animation:coccoc-alo-circle-img-anim 0s infinite ease-in-out!important}
 .coccoc-alo-phone.coccoc-alo-hover .coccoc-alo-ph-img-circle,
-.coccoc-alo-phone:hover .coccoc-alo-ph-img-circle{background-color:#ffbf00}
+.coccoc-alo-phone:hover .coccoc-alo-ph-img-circle{background-color:#565656}
 .coccoc-alo-phone.coccoc-alo-green.coccoc-alo-hover .coccoc-alo-ph-img-circle,
 .coccoc-alo-phone.coccoc-alo-green:hover .coccoc-alo-ph-img-circle{background-color:#f5444a;background-color:#f5444a 9}
-.coccoc-alo-phone.coccoc-alo-green .coccoc-alo-ph-img-circle{background-color:#ffbf00;background-color:#ffbf00 9}
+.coccoc-alo-phone.coccoc-alo-green .coccoc-alo-ph-img-circle{background-color:#565656;background-color:#565656 9}
 .coccoc-alo-phone.coccoc-alo-gray.coccoc-alo-hover .coccoc-alo-ph-img-circle,
 .coccoc-alo-phone.coccoc-alo-gray:hover .coccoc-alo-ph-img-circle{background-color:#ccc}
 .coccoc-alo-phone.coccoc-alo-gray .coccoc-alo-ph-img-circle{background-color:#f5444a}
