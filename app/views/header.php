@@ -1,7 +1,6 @@
 
 <!DOCTYPE html>
 <html lang="en-CA">
-
 <head>
     <title>WEBSITE Quần áo</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -125,7 +124,7 @@
                                 <ul>
                                     <li class='active'><a href='index.php'>Trang chủ</a></li>
                                     <li class=''><a href='chitiettin.php'>Giới thiệu</a></li>
-                             \
+                             
                                     <li class=''>
 
                                         <a href='<?php echo BASE_URL?>/sanpham/tatca'>Sản phẩm</a>

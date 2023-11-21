@@ -28,7 +28,7 @@
   		
   		<div class="form-group">
 		    <label for="pwd">Chi tiết bài viết:</label>
-		    <textarea name="content_post" rows="10" style="resize: none;" class="form-control" > <?php echo $pos['content_post'] ?></textarea>
+		    <textarea id="editor" name="content_post" rows="10" style="resize: none;" class="form-control" > <?php echo $pos['content_post'] ?></textarea>
 		    
 		</div>
 		<div class="form-group">

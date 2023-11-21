@@ -37,7 +37,7 @@
             </div>
             <div class="col-md-4 col-xs-12 col-sm-12" style="padding: 0;margin-left:30px;margin-top:5px;">
                 <div class="row">
-                    <div class="panel  panel-warning panel-styling">
+                    <div class="panel  panel-default panel-styling">
                         <div class="panel-heading">Tin tức cập nhật</div>
                         <div class="panel-body scrollable-panel">
                             <?php 

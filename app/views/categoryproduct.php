@@ -47,10 +47,10 @@
                         <a href="sanpham.php">
                         <img class="lazy img-pro content-image" src="<?php echo BASE_URL ?>/public/uploads/product/<?php echo $product['image_product'] ?>" data-original="image/iphone.png" alt="Máy in Canon MF229DW" />
                         </a>
-                        <div class="content-overlay"></div>
-                        <div class="content-details fadeIn-top">
+                        <!-- <div class="content-overlay"></div> -->
+                      <!--   <div class="content-details fadeIn-top">
                           <?php echo $product['desc_product'] ?>
-                        </div>
+                        </div> -->
                      </div>
                      <div class="name-pro-right">
                         <a href="<?php echo BASE_URL?>/sanpham/chitietsanpham/<?php echo $product['id_product'] ?>">
@@ -58,7 +58,7 @@
                         </a>
                      </div>
                       <div class="add_card">                
-                        <input type="submit" style="box-shadow: none;" class="btn btn-success btn-sm" name="addcart" value="Đặt hàng">                      
+                        <input type="submit" style="box-shadow: none;" class="btn btn-default btn-sm" name="addcart" value="Đặt hàng">                      
                      </div>
                      <div class="price_old_new">
                         <div class="price">

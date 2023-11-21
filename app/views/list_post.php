@@ -51,7 +51,7 @@
                                 
                               </div>
                               <div class="content-list-in">
-                                <p><?php echo $post['content_post']?></p>
+                                <p><?php echo substr($post['content_post'],0,350)?></p>
                               </div>
                               <div class="xt"><a href="<?php echo BASE_URL ?>/tintuc/chitiettin/<?php echo $post['id_post']?>">Xem thêm</a></div>
                            </div>

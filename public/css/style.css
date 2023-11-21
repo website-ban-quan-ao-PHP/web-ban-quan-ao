@@ -572,8 +572,8 @@ button {
 }
 .btn {
     border: 0;
-    background: #0087cc;
-    box-shadow: 0 5px 0 #006599;
+    background: #7b7b7b;
+    box-shadow: 0 5px 0 #cacaca;
     color: #fff;
     cursor: pointer;
     font: inherit;
@@ -684,7 +684,7 @@ header .logo {
     display: inline-block;
 }
 .hot_line_top span.red {
-    color: #d50100;
+    color: #0c0c0c;
     font-size: 18px;
     font-weight: bold;
     padding: 2px 0;
@@ -1138,7 +1138,7 @@ position: absolute;
     top: 5px;
     right: 6px;
     font-style: italic;
-    background: #565656;
+    background: #7b7b7b;
     padding: 3px 5px;
     color: #fff;
     font-size: 14px;
@@ -1153,13 +1153,13 @@ content: "";
     height: 0;
     left: 15px;
     border-bottom: 15px solid transparent;
-    border-left: 15px solid #565656;
+    border-left: 15px solid #7b7b7b;
     border-right: 0 solid transparent;
     border-top: 0 solid transparent;
 }
 
 .box-title .title-bar {
-    border-bottom: 1px solid #ffd500;
+    border-bottom: 1px solid #7b7b7b;
 }
 .box-title h2,
 .box-title h3,
@@ -1193,7 +1193,7 @@ content: "";
     -webkit-box-sizing: border-box;
 }
 .grids_in {
-    border: 1px solid #565656;
+    border: 1px solid #7b7b7b;
 }
 .name-pro-right {
     width: auto;
@@ -1273,7 +1273,7 @@ content: "";
 }
 .price_old_new .price span.news_price {
     font-size: 18px;
-    color: #d50100; font-weight:bold;
+    color: #333333; font-weight:bold;
     position: relative;
     display: inline-block;
 }
@@ -2412,7 +2412,7 @@ h4.nomargin {
 .title-bar h2,
 .title-bar h1 {
     padding: 6px 10px;
-    background: #565656;
+    background: #7b7b7b;
     color: #fff;
     position: relative;
 }
@@ -2428,7 +2428,7 @@ position: absolute;
     border-bottom: 0px solid transparent;
     border-top: 40px solid transparent;
     border-right: 0 solid transparent;
-    border-left: 35px solid #ffd500;
+    border-left: 35px solid #7b7b7b;
 }
 .slider_our {
     margin-bottom: 30px;
@@ -2902,7 +2902,7 @@ p.note_mst {
 }
 .footer-col ul.icon_list li a span.phone_footer {
     font-size:14px;
-    color:red;
+    color:#0c0c0c;
     font-weight:bold;
 }
 .footer-col ul.icon_list li a span.text_small {
@@ -2924,7 +2924,7 @@ p.note_mst {
     padding-right:5px;
 }
 .footer_top_bootom .footer-col>h4 {
-    color:#d50100;
+    color:#0c0c0c;
     font-size:16px;
     margin-bottom:10px;
    font-weight: bold;
@@ -3000,7 +3000,7 @@ a:hover {
 }
 .breadcrumbs ol li a span {} .breadcrumbs ol li:last-child a span,
 .breadcrumbs ol li:last-child span {
-    color:#BD002A;
+    color:#0c0c0c;
 }
 .breadcrumbs ol li:last-child:after {
     display:none;
@@ -3101,7 +3101,7 @@ a:hover {
 }
 #cssmenu > ul > li:hover > a {
     color:#fff;
-    background:#a01116;
+    background:#565656;
 }
 #cssmenu {
     text-align:left;
@@ -3149,7 +3149,7 @@ a:hover {
     text-decoration:none;
     color:#fff;
     text-align:left;
-    background:#a7a9ac;
+    background:#7b7b7b;
 }
 #cssmenu ul ul li:last-child > a,
 #cssmenu ul ul li.last-item > a {
