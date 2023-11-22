@@ -33,7 +33,7 @@
                      <div class="content">
                         <div class="img-right-pro">
                            <a href="sanpham.php">
-                           <img class="lazy img-pro content-image" src="<?php echo BASE_URL ?>/public/uploads/product/<?php echo $product['image_product'] ?>" data-original="image/iphone.png" alt="<?php echo $product['title_product'] ?>" />
+                           <img class="lazy img-pro content-image" src="<?php echo BASE_URL ?>/public/uploads/product/<?php echo $product['image_product'] ?>" data-original="image/iphone.png" alt="<?php echo substr($product['title_product'],0,20).'...' ?>" />
                            </a>
                            <!--  <div class="content-overlay"></div> -->
                            <!-- <div class="content-details fadeIn-top">
@@ -42,7 +42,7 @@
                         </div>
                         <div class="name-pro-right">
                            <a href="<?php echo BASE_URL?>/sanpham/chitietsanpham/<?php echo $product['id_product'] ?>">
-                              <h3> <?php echo $product['title_product'] ?></h3>
+                              <h3> <?php echo substr($product['title_product'],0,25).'...' ?></h3>
                            </a>
                         </div>
                         <div class="add_card">                
@@ -91,7 +91,7 @@
                ?>
             <form action=" <?php echo BASE_URL?>/giohang/themgiohang" method="POST">
                <input type="hidden" value="<?php echo $pro_cate['id_product'] ?>" name="product_id">
-               <input type="hidden" value="<?php echo $pro_cate['title_product'] ?>" name="product_title">
+               <input type="hidden" value="<?php echo $pro_cate['title_product']  ?>" name="product_title">
                <input type="hidden" value="<?php echo $pro_cate['image_product'] ?>" name="product_image">
                <input type="hidden" value="<?php echo $pro_cate['price_product'] ?>" name="product_price">
                <input type="hidden" value="1" name="product_quantity">
@@ -109,7 +109,7 @@
                         </div>
                         <div class="name-pro-right">
                            <a href="<?php echo BASE_URL?>/sanpham/chitietsanpham/<?php echo $pro_cate['id_product'] ?>">
-                              <h3> <?php echo $pro_cate['title_product'] ?></h3>
+                              <h3> <?php echo substr($pro_cate['title_product'],0,20).'...' ?></h3>
                            </a>
                         </div>
                         <div class="add_card">                

@@ -54,7 +54,7 @@
                      </div>
                      <div class="name-pro-right">
                         <a href="<?php echo BASE_URL?>/sanpham/chitietsanpham/<?php echo $product['id_product'] ?>">
-                           <h3> <?php echo $product['title_product'] ?></h3>
+                           <h3> <?php echo substr($product['title_product'],0,20).'...'  ?></h3>
                         </a>
                      </div>
                       <div class="add_card">                

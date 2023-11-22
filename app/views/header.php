@@ -47,7 +47,7 @@
         <div class="info_top">
             <div class="bg_in">
                 <p class="p_infor">
-                    <span><i class="fa fa-envelope-o" aria-hidden="true"></i>Email: sales@3tmobile.gmail</span>
+                    <span><i class="fa fa-envelope-o" aria-hidden="true"></i>Email: demon1@gmail.com</span>
                     <span><i class="fa fa-phone" aria-hidden="true"></i> Hotline: 0923-032-992</span>
                 </p>
             </div>
@@ -57,7 +57,7 @@
                 <div class="header_top">
                     <div class="bg_in">
                         <div class="logo">
-                            <a href="<?php echo BASE_URL ?>/index"><img src="<?php echo BASE_URL ?>/public/images/logohere.jpeg" width="250" height="100" alt="logohere.jpeg" /></a>
+                            <a href="<?php echo BASE_URL ?>/index"><img src="<?php echo BASE_URL ?>/public/images/demon1.png" width="250" height="100" alt="demon1.png" /></a>
 
                         </div>
                         <nav class="menu_top">
@@ -69,20 +69,20 @@
                             </form>
                         </nav>
                         <div class="cart_wrapper">
-                            <div class="cols_50">
+                            <div class="cols_100">
                                 <div class="hot_line_top">
-                                    <span><b>Trụ sở chính</b></span>
+                                    <span>Mã "LCBF1" giảm 10% đến 300K Cho Đơn Từ 3tr   Freeship cho mọi đơn hàng</span>
                                     <br/>
-                                    <span class="red">Nguyễn văn Luông</span>
+                                    
                                 </div>
                             </div>
-                            <div class="cols_50">
+                           <!--  <div class="cols_50">
                                 <div class="hot_line_top">
                                     <span><b>Văn phòng chi nhánh</b></span>
                                     <br/>
                                     <span class="red">Nguyễn văn Luông</span>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="clear"></div>
                         </div>
                         <div class="clear"></div>

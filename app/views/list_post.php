@@ -8,7 +8,7 @@
                <ol itemscope itemtype="http://schema.org/BreadcrumbList">
                   <li itemprop="itemListElement" itemscope
                      itemtype="http://schema.org/ListItem">
-                     <a itemprop="item" href=".">
+                     <a itemprop="item" href="<?php echo BASE_URL ?>">
                      <span itemprop="name">Trang chủ</span></a>
                      <meta itemprop="position" content="1" />
                   </li>

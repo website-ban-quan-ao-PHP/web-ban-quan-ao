@@ -27,8 +27,12 @@
                      <h4>Kết nối với chúng tôi</h4>
                      <div class="footer-col-content">
                         <ul class="social">
-                           <li><a href="" class="fb"><img src="<?php echo BASE_URL ?>/public/images/Fb.png">Facebook</a></li>
-                           <li><a href="#2" class="fb"><img src="<?php echo BASE_URL ?>/public/images/Fb.png">Google</a></li>
+                           <li>
+                          
+                            <a href="" class="fb"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a> 
+                            
+                          </li>
+                           <li><a href="#2" class="fb"><i class="fa fa-google" aria-hidden="true"></i> Google</a></li>
                         </ul>
                         <div class="clear"></div>
                      </div>
@@ -39,16 +43,16 @@
                         <ul class="icon_list">
                            <li>
                               <a href=".">
-                                 <i class="fa fa-mobile" aria-hidden="true"></i> 
+                                 <i class="fa fa-phone" aria-hidden="true"></i>
                                  <p class="text_li">
-                                    <span class="phone_footer">Hotline:0923-032-992 </span>
+                                    <span class="phone_footer">Hotline:0923-335-355 </span>
                                     <span class="text_small">(Từ 8h đến 20h tất cả các ngày)</span>
                                  </p>
                               </a>
                            </li>
                            <div class="clear"></div>
-                           <li><a><i class="fa fa-envelope" aria-hidden="true"></i>  sales@webextrasite.com</a></li>
-                           <li><a><i class="fa fa-mouse-pointer" aria-hidden="true"></i>  http://webextrasite.com/</a></li>
+                           <li><a><i class="fa fa-envelope" aria-hidden="true"></i>  demon1@gmail.com</a></li>
+                           <li><a><i class="fa fa-mouse-pointer" aria-hidden="true"></i>  https://demon1.com/</a></li>
                         </ul>
                      </div>
                   </div>

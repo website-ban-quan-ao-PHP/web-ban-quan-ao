@@ -4,8 +4,9 @@
    <div class="breadcrumbs">
       <ol itemscope itemtype="http://schema.org/BreadcrumbList">
          <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-            <a itemprop="item" href=".">
-            <span itemprop="name">Trang chủ</span></a>
+            <a itemprop="item" href="<?php echo BASE_URL ?>">
+            <span itemprop="name">Trang chủ</span>
+         </a>
             <meta itemprop="position" content="1" />
          </li>
          <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
@@ -55,7 +56,7 @@
                      </div>
                      <div class="name-pro-right">
                         <a href="<?php echo BASE_URL?>/sanpham/chitietsanpham/<?php echo $product['id_product'] ?>">
-                           <h3> <?php echo $product['title_product'] ?></h3>
+                           <h3> <?php echo substr($product['title_product'],0,20).'...'?></h3>
                         </a>
                      </div>
                      <!-- <div class="add_card">
