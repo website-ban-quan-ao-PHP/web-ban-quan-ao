@@ -144,16 +144,13 @@
                                     <li class=''><a href='<?php echo BASE_URL?>/tintuc/tatca'>Tin tức</a>
                                         <ul>
                                             <?php 
-                                                foreach ($category_post as $key => $cate_post) {
-                                                
+                                                foreach ($category_post as $key => $cate_post) {  
                                                 
                                              ?>
                                               <li>
                                                     <a href='<?php echo BASE_URL?>/tintuc/danhmuc/<?php echo $cate_post['id_category_post'] ?>'><span><?php echo $cate_post['title_category_post'] ?></span></a> 
                                                 </li>
-                                          
-
-
+                                        
                                              <?php 
                                                 }
                                               ?>
@@ -164,8 +161,19 @@
 
 
                                     <li class=''><a href='<?php echo BASE_URL?>/giohang'>Giỏ hàng</a></li>
-                                    <li class=''><a href='<?php echo BASE_URL?>/index/lienhe'>Liên hệ</a></li>
-                                    <li class=''><a href='<?php echo BASE_URL?>/khachhang/dangnhap'>Đăng nhập</a></li>
+                                    <li class=''><a href='<?php echo BASE_URL?>/index/lienhe'>Liên hệ</a>
+                                        <?php 
+                                            if (Session::get('customer') == true) {
+                                        ?>
+                                            <li class=''><a href='<?php echo BASE_URL?>/khachhang/dangxuat'>Đăng xuất</a></li>
+                                        <?php 
+                                            }else{
+                                         ?>
+                                            <li class=''><a href='<?php echo BASE_URL?>/khachhang/dangnhap'>Đăng nhập</a></li>
+                                         <?php 
+                                            }
+                                          ?>
+                                    </li>
                                    
                                 </ul>
                             </div>

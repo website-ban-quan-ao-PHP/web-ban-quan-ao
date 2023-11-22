@@ -99,7 +99,7 @@
                                     <div class="row">
                                        <div class="input">
                                           <label>Mật khẩu: <span style="color:red;">*</span></label>
-                                          <input type="text" name="password" required class="clsip">
+                                          <input type="password" name="password" required class="clsip">
                                        </div>
                                        <div class="clear"></div>
                                     </div>

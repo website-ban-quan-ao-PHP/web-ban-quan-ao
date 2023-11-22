@@ -35,7 +35,7 @@ class Session{
 
 
 	public static function unset($key){
-		session_unset($key);
+		session_unset($_SESSION[$key]);
 	}
 
 }
