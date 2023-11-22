@@ -14,7 +14,7 @@ class login extends DController
 	}
 	public function login(){
 
-		$this->load->view('header');
+		// $this->load->view('header');
 		Session::init();
 		if (Session::get("login")== true) {
 		  	header("Location:".BASE_URL."/login/dashboard");
@@ -22,7 +22,7 @@ class login extends DController
 		}
 		$this->load->view('cpanel/login');
 
-		$this->load->view('footer');
+		// $this->load->view('footer');
 	}
 
 	public function dashboard(){
@@ -44,7 +44,7 @@ class login extends DController
 		 $count = $loginmodel->login($table_admin,$username,$password);
 
 		 if ($count == 0) {
-		 	$message['msg'] = "Sai maatj khau";
+		 	$message['msg'] = "Tên tài khoản hoặc mật khẩu sai. Vui lòng nhập lại!";
 		 	header("Location:".BASE_URL."/login") ;
 		 }else {
 
@@ -62,7 +62,9 @@ class login extends DController
 	public function logout()
 	{
 		Session::init();
-		Session::destroy();
+		// Session::destroy();
+		unset($_SESSION['login']);
+
 		header("Location:".BASE_URL."/login") ;
 	}
 

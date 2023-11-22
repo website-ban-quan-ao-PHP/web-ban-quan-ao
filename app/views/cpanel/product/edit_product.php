@@ -36,8 +36,8 @@
    	 		<input type="text" value="<?php echo $pro['quantity_product'] ?>" name="quantity_product" class="form-control" >
   		</div>
   		<div class="form-group">
-		    <label for="pwd">Miêu tả danh mục:</label>
-		    <textarea name="desc_product"  rows="5" style="resize: none;" class="form-control" ><?php echo $pro['desc_product'] ?></textarea>
+		    <label for="pwd">Mô tả danh mục:</label>
+		    <textarea id="editor" name="desc_product"  rows="5" style="resize: none;" class="form-control" ><?php echo $pro['desc_product'] ?></textarea>
 		    
 		</div>
 		<div class="form-group">

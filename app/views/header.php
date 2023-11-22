@@ -1,7 +1,6 @@
 
 <!DOCTYPE html>
 <html lang="en-CA">
-
 <head>
     <title>WEBSITE Quần áo</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -48,7 +47,7 @@
         <div class="info_top">
             <div class="bg_in">
                 <p class="p_infor">
-                    <span><i class="fa fa-envelope-o" aria-hidden="true"></i>Email: sales@3tmobile.gmail</span>
+                    <span><i class="fa fa-envelope-o" aria-hidden="true"></i>Email: demon1@gmail.com</span>
                     <span><i class="fa fa-phone" aria-hidden="true"></i> Hotline: 0923-032-992</span>
                 </p>
             </div>
@@ -58,7 +57,7 @@
                 <div class="header_top">
                     <div class="bg_in">
                         <div class="logo">
-                            <a href="<?php echo BASE_URL ?>/index"><img src="<?php echo BASE_URL ?>/public/images/logohere.jpeg" width="250" height="100" alt="logohere.jpeg" /></a>
+                            <a href="<?php echo BASE_URL ?>/index"><img src="<?php echo BASE_URL ?>/public/images/demon1.png" width="250" height="100" alt="demon1.png" /></a>
 
                         </div>
                         <nav class="menu_top">
@@ -70,20 +69,20 @@
                             </form>
                         </nav>
                         <div class="cart_wrapper">
-                            <div class="cols_50">
+                            <div class="cols_100">
                                 <div class="hot_line_top">
-                                    <span><b>Trụ sở chính</b></span>
+                                    <span>Mã "LCBF1" giảm 10% đến 300K Cho Đơn Từ 3tr   Freeship cho mọi đơn hàng</span>
                                     <br/>
-                                    <span class="red">Nguyễn văn Luông</span>
+                                    
                                 </div>
                             </div>
-                            <div class="cols_50">
+                           <!--  <div class="cols_50">
                                 <div class="hot_line_top">
                                     <span><b>Văn phòng chi nhánh</b></span>
                                     <br/>
                                     <span class="red">Nguyễn văn Luông</span>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="clear"></div>
                         </div>
                         <div class="clear"></div>
@@ -123,9 +122,8 @@
                         <div class="search_top">
                             <div id='cssmenu'>
                                 <ul>
-                                    <li class='active'><a href='index.php'>Trang chủ</a></li>
-                                    <li class=''><a href='chitiettin.php'>Giới thiệu</a></li>
-                             \
+                                    <li class='active'><a href='<?php echo BASE_URL?>'>Trang chủ</a></li>
+                                                                 
                                     <li class=''>
 
                                         <a href='<?php echo BASE_URL?>/sanpham/tatca'>Sản phẩm</a>
@@ -146,16 +144,13 @@
                                     <li class=''><a href='<?php echo BASE_URL?>/tintuc/tatca'>Tin tức</a>
                                         <ul>
                                             <?php 
-                                                foreach ($category_post as $key => $cate_post) {
-                                                
+                                                foreach ($category_post as $key => $cate_post) {  
                                                 
                                              ?>
                                               <li>
                                                     <a href='<?php echo BASE_URL?>/tintuc/danhmuc/<?php echo $cate_post['id_category_post'] ?>'><span><?php echo $cate_post['title_category_post'] ?></span></a> 
                                                 </li>
-                                          
-
-
+                                        
                                              <?php 
                                                 }
                                               ?>
@@ -166,7 +161,20 @@
 
 
                                     <li class=''><a href='<?php echo BASE_URL?>/giohang'>Giỏ hàng</a></li>
-                                    <li class=''><a href='<?php echo BASE_URL?>/index/lienhe'>Liên hệ</a></li>
+                                    <li class=''><a href='<?php echo BASE_URL?>/index/lienhe'>Liên hệ</a>
+                                        <?php 
+                                            if (Session::get('customer') == true) {
+                                        ?>
+                                            <li class=''><a href='<?php echo BASE_URL?>/khachhang/dangxuat'>Đăng xuất</a></li>
+                                        <?php 
+                                            }else{
+                                         ?>
+                                            <li class=''><a href='<?php echo BASE_URL?>/khachhang/dangnhap'>Đăng nhập</a></li>
+                                         <?php 
+                                            }
+                                          ?>
+                                    </li>
+                                   
                                 </ul>
                             </div>
                         </div>

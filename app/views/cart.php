@@ -134,7 +134,7 @@
                            <ul class="contact-list">
                               <li class="addr">
                                  <strong class="title">Địa chỉ của chúng tôi</strong>
-                                 <p><em><strong>3tmobile</strong></em><br />
+                                 <p><em><strong>DEMON1</strong></em><br />
                                  <p>Trung Tâm Bán Hàng:</p>
                                  <p>CN1: 333B Minh Phụng, Phường 2, Quận 11, HCM</p>
                                  <p>CN2: 548 Lý Thái Tổ, Phường 10, Quận 10, HCM</p>
@@ -146,8 +146,8 @@
                            </ul>
                            <div class="hiring-box">
                               <strong class="title">Chào bạn!</strong>
-                              <p>Mọi thắc mắc bạn hãy gửi về mail của chúng tôi <strong>3tmobile@webextrasite.com</strong> chúng tôi sẽ giải đáp cho bạn.</p>
-                              <p><a href="." class="arrow-link"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> Về trang chủ</a></p>
+                              <p>Mọi thắc mắc bạn hãy gửi về mail của chúng tôi <strong>demon1@gmail.com</strong> chúng tôi sẽ giải đáp cho bạn.</p>
+                              <p><a href="<?php echo BASE_URL?>" class="arrow-link"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> Về trang chủ</a></p>
                            </div>
                         </div>
                      </div>
@@ -158,7 +158,7 @@
                                  <div class="content-box_contact">
                                     <div class="row">
                                        <div class="input">
-                                          <label>Họ và tên: <span style="color:red;">*</span></label>
+                                          <label>Họ và tên: <span >*</span></label>
                                           <input type="text" name="name" required class="clsip">
                                        </div>
                                        <div class="clear"></div>
@@ -166,7 +166,7 @@
                                     <!---row---->
                                     <div class="row">
                                        <div class="input">
-                                          <label>Số điện thoại: <span style="color:red;">*</span></label>
+                                          <label>Số điện thoại: <span >*</span></label>
                                           <input type="text" name="sodienthoai" required onkeydown="return checkIt(event)" class="clsip">
                                        </div>
                                        <div class="clear"></div>
@@ -174,7 +174,7 @@
                                     <!---row---->
                                     <div class="row">
                                        <div class="input">
-                                          <label>Địa chỉ: <span style="color:red;">*</span></label>
+                                          <label>Địa chỉ: <span >*</span></label>
                                           <input type="text" name="diachi" required class="clsip" >
                                        </div>
                                        <div class="clear"></div>
@@ -182,7 +182,7 @@
                                     <!---row---->
                                     <div class="row">
                                        <div class="input">
-                                          <label>Email: <span style="color:red;">*</span></label>
+                                          <label>Email: <span >*</span></label>
                                           <input type="text" name="email" onchange="return KiemTraEmail(this);" required class="clsip">
                                        </div>
                                        <div class="clear"></div>
@@ -190,7 +190,7 @@
                                     <!---row---->
                                     <div class="row">
                                        <div class="input">
-                                          <label>Nội dung: <span style="color:red;">*</span></label>
+                                          <label>Nội dung: <span >*</span></label>
                                           <textarea type="text" name="noidung" class="clsipa"></textarea>
                                        </div>
                                        <div class="clear"></div>

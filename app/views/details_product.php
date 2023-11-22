@@ -19,7 +19,7 @@
             <div class="breadcrumbs">
                <ol itemscope itemtype="http://schema.org/BreadcrumbList">
                   <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                     <a itemprop="item" href="'<?php echo BASE_URL?>">
+                     <a itemprop="item" href="<?php echo BASE_URL ?>">
                      <span itemprop="name">Trang chủ</span></a>
                      <meta itemprop="position" content="1" />
                   </li>
@@ -106,7 +106,7 @@
                      </div>
                   
                         
-                        </div> -->
+                        </div> 
                      <div class="tags_products prodcut_detail">
                         <div class="tab_link">
                            <h3 class="title_tab_link">TAGS: </h3>
@@ -129,7 +129,7 @@
                      <div class="info-prod prod-price freeship">
                         <span class="title">
                            <p>
-                              <!-- <img alt="chuyển hàng miễn phí tại thietbivanphong123.com" src="/data/upload/ship-hang-mien-phi.png" style="height:33px; width:60px" /> --> Bạn sẽ được giao hàng miễn phí trong khu vực nội thành TPHCM khi mua sản phẩm này.
+                           Bạn sẽ được giao hàng miễn phí trong khu vực nội thành TPHCM khi mua sản phẩm này.
                            </p>
                         </span>
                         <span class="row more"><a href="" title="">Xem thêm</a>
@@ -144,6 +144,7 @@
               
                      </div>
                   </div>
+
                   <div class="clear"></div>
                </div>
             </div>

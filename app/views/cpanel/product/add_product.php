@@ -29,8 +29,8 @@
    	 		<input type="text" name="quantity_product" class="form-control" >
   		</div>
   		<div class="form-group">
-		    <label for="pwd">Miêu tả danh mục:</label>
-		    <textarea name="desc_product" rows="5" style="resize: none;" class="form-control" ></textarea>
+		    <label for="pwd">Mô tả danh mục:</label>
+		    <textarea id="editor" name="desc_product" rows="5" style="resize: none;" class="form-control" ></textarea>
 		    
 		</div>
 		<div class="form-group">
