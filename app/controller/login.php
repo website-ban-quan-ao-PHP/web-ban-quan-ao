@@ -44,7 +44,7 @@ class login extends DController
 		 $count = $loginmodel->login($table_admin,$username,$password);
 
 		 if ($count == 0) {
-		 	$message['msg'] = "Sai maatj khau";
+		 	$message['msg'] = "Tên tài khoản hoặc mật khẩu sai. Vui lòng nhập lại!";
 		 	header("Location:".BASE_URL."/login") ;
 		 }else {
 

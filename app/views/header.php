@@ -122,9 +122,8 @@
                         <div class="search_top">
                             <div id='cssmenu'>
                                 <ul>
-                                    <li class='active'><a href='index.php'>Trang chủ</a></li>
-                                    <li class=''><a href='chitiettin.php'>Giới thiệu</a></li>
-                             
+                                    <li class='active'><a href='<?php echo BASE_URL?>'>Trang chủ</a></li>
+                                                                 
                                     <li class=''>
 
                                         <a href='<?php echo BASE_URL?>/sanpham/tatca'>Sản phẩm</a>
@@ -166,6 +165,8 @@
 
                                     <li class=''><a href='<?php echo BASE_URL?>/giohang'>Giỏ hàng</a></li>
                                     <li class=''><a href='<?php echo BASE_URL?>/index/lienhe'>Liên hệ</a></li>
+                                    <li class=''><a href='<?php echo BASE_URL?>/khachhang/dangnhap'>Đăng nhập</a></li>
+                                   
                                 </ul>
                             </div>
                         </div>

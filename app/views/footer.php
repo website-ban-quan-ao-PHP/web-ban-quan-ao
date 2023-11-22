@@ -76,6 +76,7 @@
       
       <script defer type="text/javascript" src="<?php echo BASE_URL ?>/public/js/sweet-alert.js"></script>
       <script defer type="text/javascript" src="<?php echo BASE_URL ?>/public/js/jquery.flexslider-min.js"></script>
+      <script defer type="text/javascript" src="<?php echo BASE_URL ?>/public/js/bootstrap.js"></script>
       <script defer src="<?php echo BASE_URL ?>/public/js/owl.carousel.js" type="text/javascript"></script>
       <script defer src="<?php echo BASE_URL ?>/public/js/jquery.lazyload.min.js" type="text/javascript"></script>
       <script defer type="text/javascript" src="<?php echo BASE_URL ?>/public/js/script_ex.js"></script>

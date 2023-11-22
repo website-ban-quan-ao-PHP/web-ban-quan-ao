@@ -7,9 +7,9 @@
                         <li class="addr">
                            <strong class="title">Địa chỉ của chúng tôi</strong>
                            <p>
-                              <em><strong>3t phone</strong></em><br />
+                              <em><strong>Demon1</strong></em><br />
                               <em> 333B Minh Phụng, Phường 2, Quận 11, HCM<br />
-                              Điện thoại : 0932 023 992<br />
+                              Điện thoại : 0932 335 355<br />
                               <!--   <strong>Điện thoại: <span style="color:#FF0000"></span></strong></em> -->
                            </p>
                         </li>

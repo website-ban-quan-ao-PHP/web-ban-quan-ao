@@ -17,11 +17,11 @@
                         </div>
 
                         <div class="item">
-                            <img src="<?php echo BASE_URL ?>/public/images/Banner_fashion-sale-with-discount-template.jpg" alt="Siêu khuyến mãi">
+                            <img width="682" height="409" src="<?php echo BASE_URL ?>/public/images/Banner_fashion-sale-with-discount-template.jpg" alt="Siêu khuyến mãi">
                         </div>
 
                         <div class="item">
-                            <img src="<?php echo BASE_URL ?>/public/images/Banner_fashion-concept-horizontal.jpg" alt="Siêu khuyến mãi">
+                            <img width="682" height="409" src="<?php echo BASE_URL ?>/public/images/Banner_fashion-concept-horizontal.jpg" alt="Siêu khuyến mãi">
 
                         </div>
                     </div>
