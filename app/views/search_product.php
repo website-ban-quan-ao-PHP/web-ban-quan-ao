@@ -9,7 +9,7 @@
          </li>
          <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
            
-            <span itemprop="name"> Sản phẩm hot</span></a>
+            <span itemprop="name"> Tìm kiếm </span></a>
             <meta itemprop="position" content="2" />
          </li>
       </ol>
@@ -17,24 +17,23 @@
    <div class="module_pro_all">
       <div class="box-title">
          <div class="title-bar">
-            <h1> Tất cả sản phẩm hot</h1>
+            <h1>Tất cả sản phẩm tìm kiếm </h1>
            
          </div>
       </div>
       <div class="pro_all_gird">
-          <style type="text/css">
+         <style type="text/css">
             .grids.grids-list-product{
                height: 375px;
             }
-
          </style>
          <div class="girds_all list_all_other_page ">
             <?php 
 
-            foreach ($product_hot as $key => $product) {
-                
+            foreach ($search_product as $key => $product) {
               ?>
-            <div class="grids grids-list-product">
+
+             <div class="grids grids-list-product">
                <div class="grids_in">
                   <div class="content">
                      <div class="img-right-pro">

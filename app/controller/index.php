@@ -11,7 +11,7 @@ class index extends DController
 		$this->homepage();
 	}
 	public function homepage(){
-
+		Session::init();
 		$table = 'tbl_category_product';
 		$table_post = 'tbl_category_post';
 		$table_product ='tbl_product';
@@ -33,7 +33,7 @@ class index extends DController
 
 	
 	public function notfound(){
-		
+		Session::init();
 		$table = 'tbl_category_product';
 		$table_post = 'tbl_category_post';
 		$categorymodel = $this->load->model('categorymodel');
@@ -47,7 +47,8 @@ class index extends DController
 	}
 
 	public function lienhe(){
-	$table = 'tbl_category_product';
+		Session::init();
+		$table = 'tbl_category_product';
 		$table_post = 'tbl_category_post';
 		$categorymodel = $this->load->model('categorymodel');
 		$data['category'] = $categorymodel->category_home($table);

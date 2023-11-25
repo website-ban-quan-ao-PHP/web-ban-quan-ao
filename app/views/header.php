@@ -61,12 +61,14 @@
 
                         </div>
                         <nav class="menu_top">
-                            <form class="search_form" method="get" action="">
-                                <input class="searchTerm" name="search" placeholder="Nhập từ cần tìm..." />
-                                <button class="searchButton" type="submit">
+                          
+                            <form class="search_form" action=" <?php echo BASE_URL?>/sanpham/timkiemsanpham/" method="GET">
+                                <input type="text" class="searchTerm" name="title_product" placeholder="Nhập từ cần tìm..." />
+                                <button class="searchButton"  type="submit">
                                     <i class="fa fa-search" aria-hidden="true"></i>
                                 </button>
                             </form>
+                           
                         </nav>
                         <div class="cart_wrapper">
                             <div class="cols_100">
