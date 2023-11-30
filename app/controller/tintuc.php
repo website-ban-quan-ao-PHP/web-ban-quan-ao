@@ -12,7 +12,9 @@ class tintuc extends DController
 	}
 	public function tatca()
 	{
+
 		Session::init();
+
 		$table = 'tbl_category_product';
 		$table_cate_post = 'tbl_category_post';
 		$table_post = 'tbl_post';
@@ -35,7 +37,9 @@ class tintuc extends DController
 	public function danhmuc($id)
 	{
 		
+
 		Session::init();
+
 		$table = 'tbl_category_product';
 		$table_cate_post = 'tbl_category_post';
 		$table_post = 'tbl_post';
@@ -55,6 +59,7 @@ class tintuc extends DController
 	public function chitiettin($id)
 	{
 		Session::init();
+
 		$table = 'tbl_category_product';
 		$table_cate_post = 'tbl_category_post';
 		$table_post = 'tbl_post';

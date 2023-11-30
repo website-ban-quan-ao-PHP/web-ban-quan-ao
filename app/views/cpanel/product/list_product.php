@@ -9,9 +9,6 @@
 ?>
 <h3 style="text-align: center;"> Liệt kê sản phẩm</h3>
 
-
-
-
 <table class="table table-striped">
     <thead>
       <tr>

@@ -11,9 +11,11 @@ class sanpham extends DController
 		$this->danhmuc();
 	}
 
+
 	public function tatca()
 	{
 		Session::init();
+
 		$table = 'tbl_category_product';
 		$table_product = 'tbl_product';
 		$table_post = 'tbl_category_post';
@@ -34,6 +36,7 @@ class sanpham extends DController
 	public function danhmuc($id)
 	{
 		Session::init();
+
 		$table = 'tbl_category_product';
 		$table_product = 'tbl_product';
 		$table_post = 'tbl_category_post';
@@ -51,7 +54,7 @@ class sanpham extends DController
 	}
 
 	public function sanphamhot(){
-		
+
 		$table = 'tbl_category_product';
 		$table_product = 'tbl_product';
 		$table_post = 'tbl_category_post';
@@ -70,6 +73,7 @@ class sanpham extends DController
 	public function chitietsanpham($id)
 	{
 		Session::init();
+
 		$table = 'tbl_category_product';
 		$table_product = 'tbl_product';
 		$table_post = 'tbl_category_post';
@@ -95,6 +99,7 @@ class sanpham extends DController
 		$this->load->view('details_product',$data);
 		$this->load->view('footer');
 	}
+
 
 
 	public function timkiemsanpham()

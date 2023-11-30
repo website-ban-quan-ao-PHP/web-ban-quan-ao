@@ -60,8 +60,7 @@
                             <a href="<?php echo BASE_URL ?>/index"><img src="<?php echo BASE_URL ?>/public/images/demon1.png" width="250" height="100" alt="demon1.png" /></a>
 
                         </div>
-                        <nav class="menu_top">
-                          
+                        <nav class="menu_top">                         
                             <form class="search_form" action=" <?php echo BASE_URL?>/sanpham/timkiemsanpham/" method="GET">
                                 <input type="text" class="searchTerm" name="title_product" placeholder="Nhập từ cần tìm..." />
                                 <button class="searchButton"  type="submit">
@@ -69,6 +68,7 @@
                                 </button>
                             </form>
                            
+
                         </nav>
                         <div class="cart_wrapper">
                             <div class="cols_100">

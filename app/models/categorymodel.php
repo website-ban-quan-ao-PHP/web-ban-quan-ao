@@ -91,8 +91,7 @@ class categorymodel extends DModel
 	}
 
 	// Product
-		
-
+	
 	public function search_product($table_product,$key){
 		$sql = "SELECT * FROM $table_product WHERE `title_product` LIKE '%".$key."%'";
 		return $this->db->select($sql);
@@ -103,6 +102,7 @@ class categorymodel extends DModel
 	{
 		// $sql = "SELECT * FROM $table_product ORDER BY `id_product` DESC";
 		$sql = "SELECT * FROM $table_product,$table_category WHERE $table_product.id_category_product = $table_category.id_category_product ORDER BY $table_product.id_product DESC";
+
 
 		return $this->db->select($sql);
 	}

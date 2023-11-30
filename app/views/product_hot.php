@@ -22,18 +22,21 @@
          </div>
       </div>
       <div class="pro_all_gird">
+
           <style type="text/css">
             .grids.grids-list-product{
                height: 375px;
             }
 
          </style>
+
          <div class="girds_all list_all_other_page ">
             <?php 
 
             foreach ($product_hot as $key => $product) {
                 
               ?>
+
             <div class="grids grids-list-product">
                <div class="grids_in">
                   <div class="content">
@@ -58,7 +61,9 @@
                      </div> -->
                       <div class="add_card">                
                            <input type="submit" style="box-shadow: none;" class="btn btn-default btn-sm" name="addcart" value="Đặt hàng">                      
-                        </div>
+                       </div>
+
+
                      <div class="price_old_new">
                         <div class="price">
                            <span class="news_price"> <?php echo number_format($product['price_product'],0,',','.').'VNĐ' ?> </span>

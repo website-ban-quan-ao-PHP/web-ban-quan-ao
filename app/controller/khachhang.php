@@ -12,7 +12,6 @@ class khachhang extends DController
 	}
 	public function dangxuat()
 	{
-		
 			Session::init();
 			Session::destroy();
 		 	$message['msg'] = "Đăng xuất thành công";
