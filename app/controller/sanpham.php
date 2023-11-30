@@ -11,9 +11,11 @@ class sanpham extends DController
 		$this->danhmuc();
 	}
 
-		public function tatca()
+
+	public function tatca()
 	{
-		
+		Session::init();
+
 		$table = 'tbl_category_product';
 		$table_product = 'tbl_product';
 		$table_post = 'tbl_category_post';
@@ -33,7 +35,8 @@ class sanpham extends DController
 
 	public function danhmuc($id)
 	{
-		
+		Session::init();
+
 		$table = 'tbl_category_product';
 		$table_product = 'tbl_product';
 		$table_post = 'tbl_category_post';
@@ -69,6 +72,7 @@ class sanpham extends DController
 
 	public function chitietsanpham($id)
 	{
+		Session::init();
 
 		$table = 'tbl_category_product';
 		$table_product = 'tbl_product';
@@ -93,6 +97,30 @@ class sanpham extends DController
 
 		$this->load->view('header',$data);
 		$this->load->view('details_product',$data);
+		$this->load->view('footer');
+	}
+
+
+
+	public function timkiemsanpham()
+	{
+
+				
+		$table = 'tbl_category_product';
+		$table_post = 'tbl_category_post';
+		$table_product = 'tbl_product';
+		$categorymodel = $this->load->model('categorymodel');
+
+		$title = $_GET['title_product'];
+
+
+		$data['category'] = $categorymodel->category_home($table);
+		$data['category_post'] = $categorymodel->categorypost_home($table_post);
+		$data['search_product'] = $categorymodel->search_product($table_product,$title);
+
+
+		$this->load->view('header',$data);
+		$this->load->view('search_product',$data);
 		$this->load->view('footer');
 	}
 

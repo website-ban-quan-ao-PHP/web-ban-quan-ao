@@ -12,6 +12,11 @@
 		.navbar-nav>li>a {
     		font-size: 18px;
 		}
+
+        tr>th,tr>td {
+            font-size: 18px;
+        }
+
 	</style>
 
 </head>

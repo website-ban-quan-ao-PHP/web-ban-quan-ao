@@ -12,11 +12,9 @@ class khachhang extends DController
 	}
 	public function dangxuat()
 	{
-		
 			Session::init();
-			Session::unset('customer');
+			Session::destroy();
 		 	$message['msg'] = "Đăng xuất thành công";
-
 			header('Location:' .BASE_URL."/khachhang/dangnhap?msg=".urlencode(serialize($message)));
 
 		
